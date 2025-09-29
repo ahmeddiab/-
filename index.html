@@ -1,11 +1,126 @@
-<!doctype html><html lang=ar dir=rtl><head><meta charset=utf-8>
- <meta name=viewport content="width=device-width,initial-scale=1">
- <title>index.html</title><link rel=manifest href=manifest.json>
- <link rel=stylesheet href=styles.css></head><body>
- <header><h1>شركة التأمين العراقية العامة</h1>
- <nav><a href=index.html>الرئيسية</a><a href=services.html>طلب وثيقة تأمين</a>
- <a href=calculator.html>احسب قسط سيارتك</a><a href=branches.html>فروع الشركة</a>
- <a href=claims.html>طلب تعويض</a><a href=contact.html>تواصل</a><a href=about.html>من نحن؟</a></nav></header>
- <div class=card>أهلاً بك في المنصة الالكترونية</div>
- <footer>© شركة التأمين العراقية العامة — 2025<br>developed by: Eng Ahmed Yaseen</footer>
- <script src=app.js></script></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>المنصة الإلكترونية — شركة التأمين العراقية العامة</title>
+  <meta name="description" content="منصة تواصل وخدمات إلكترونية لشركة التأمين العراقية العامة." />
+  <link rel="preload" as="image" href="assets/images/hero_bg.jpg">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img class="brand-mark" src="assets/images/logo_placeholder.svg" alt="IIC Logo" />
+        <div class="brand-text">
+          <h1>شركة التأمين العراقية العامة</h1>
+          <p>أمانك مسؤوليتنا — منذ 1959</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#about">عن المنصة</a>
+        <a href="#services">الخدمات</a>
+        <a href="#media">المعرض</a>
+        <a href="#forms">الاستمارات</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="overlay"></div>
+    <div class="container hero-inner">
+      <h2>للتحدث المباشر مع المساعد الذكي الذي يعمل في خدمتكم 24/7</h2>
+      <a id="assistant-cta" class="cta" href="#" target="_blank" rel="noopener">اضغط هنا</a>
+      <p class="helper">— قنوات رسمية، معلومات دقيقة، واستجابة فورية —</p>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h3>عن المنصة</h3>
+        <p>
+          هذه النسخة تم إعدادها بناءً على آخر تحديث لطلباتكم، وتتضمن بنية جاهزة للتطوير الفوري.
+          تم تضمين العناصر التالية: شريط دعوة للتواصل مع المساعد الذكي، أقسام تعريفيّة وخدمية،
+          معرض صور، مساحات جاهزة للاستمارات، وملفات مرجعية داخل حزمة التحميل.
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="section muted">
+      <div class="container">
+        <h3>الخدمات</h3>
+        <ul class="grid features">
+          <li>
+            <h4>تواصل ذكي 24/7</h4>
+            <p>مساعد ذكي يجيب عن الاستفسارات المتعلقة بالوثائق، الأقساط، والفروع.</p>
+          </li>
+          <li>
+            <h4>هيكل قابل للتطوير</h4>
+            <p>تمهيد لإضافة استمارات إلكترونية (طلب وثيقة، الشكاوى، حجز مقابلة).</p>
+          </li>
+          <li>
+            <h4>أصول إعلامية</h4>
+            <p>صور توعوية وتسويقية مضمنة داخل الحزمة لاستخدامها فوراً.</p>
+          </li>
+          <li>
+            <h4>مراجع مدمجة</h4>
+            <p>مستندات مرجعية رسمية ضمن مجلد <code>docs</code> لتعزيز دقة المحتوى.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="media" class="section">
+      <div class="container">
+        <h3>المعرض</h3>
+        <div class="gallery">
+          <!-- Thumbnails are loaded from assets/images; feel free to replace -->
+          <img src="assets/images/thumb_1.jpg" alt="صورة تعريفية 1" />
+          <img src="assets/images/thumb_2.jpg" alt="صورة تعريفية 2" />
+          <img src="assets/images/thumb_3.jpg" alt="صورة تعريفية 3" />
+          <img src="assets/images/thumb_4.jpg" alt="صورة تعريفية 4" />
+        </div>
+      </div>
+    </section>
+
+    <section id="forms" class="section muted">
+      <div class="container">
+        <h3>الاستمارات (جاهزة للإضافة)</h3>
+        <p>
+          هذا القسم مهيأ لربط الاستمارات الإلكترونية التي سنصممها لاحقاً (طلب وثيقة، الاستفسارات، الشكاوى،
+          طلب مقابلة المدير العام، …). تجدون نماذج أولية داخل مجلد <code>forms</code>.
+        </p>
+        <div class="forms-grid">
+          <a class="form-card" href="forms/request_policy.html">نموذج طلب وثيقة</a>
+          <a class="form-card" href="forms/contact_us.html">نموذج تواصل</a>
+          <a class="form-card" href="forms/complaint.html">نموذج شكوى</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h3>تواصل معنا</h3>
+        <ul class="contact-list">
+          <li>الموقع: بغداد / الكرادة / ساحة عقبة بن نافع / شارع خالد بن الوليد</li>
+          <li>الهاتف: 07736677513</li>
+          <li>البريد: info@iic.mof.gov.iq</li>
+          <li>الموقع الإلكتروني: www.iic.mof.gov.iq</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="credit">developed by: Eng Ahmed Yaseen</p>
+      <p class="tiny">© 2025 شركة التأمين العراقية العامة</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
