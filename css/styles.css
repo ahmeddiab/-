@@ -13,7 +13,7 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:
 .nav{display:flex;gap:18px;align-items:center;padding:10px 0 14px 0}
 .nav a{color:#cfd3df;text-decoration:none;font-size:.95rem}
 .nav a:hover{color:#fff}
-.hero{position:relative;min-height:50vh;background:url('../assets/images/hero_bg.jpg') center/cover no-repeat}
+.hero{position:relative;min-height:50vh;background:radial-gradient(1200px 600px at 50% 40%, rgba(212,175,55,.18), transparent), linear-gradient(180deg,#0c0e13,#0b0c10)}
 .hero .overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(2,4,8,.66),rgba(2,4,8,.33))}
 .hero-inner{position:relative;padding:80px 0 60px 0;text-align:center}
 .hero-inner h2{font-size:1.8rem;margin:0 0 16px}
@@ -38,3 +38,7 @@ code{background:#0f1218;border:1px solid #262b36;padding:.1rem .35rem;border-rad
 @media (min-width:900px){
   .hero-inner h2{font-size:2.2rem}
 }
+
+.brand-logo{width:54px;height:auto;display:block}
+.note{opacity:.85;margin-top:10px}
+.calc-box{background:#10141c;border:1px solid #2c3340;border-radius:14px;padding:16px;margin-top:10px}

@@ -1,14 +1,28 @@
-
-<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>نموذج طلب وثيقة</title><link rel="stylesheet" href="../css/styles.css"></head>
-<body><main class="section"><div class="container">
-<h3>نموذج طلب وثيقة — (مسودة أولية)</h3>
-<p>هذا النموذج أوليّ، سنقوم بتحويله إلى استمارة تفاعلية حسب متطلباتكم.</p>
-<form class="features" onsubmit="event.preventDefault(); alert('تم تسجيل الطلب - نسخة أولية');">
-  <label>نوع الوثيقة <input type="text" required></label>
+<!DOCTYPE html><html lang="ar" dir="rtl"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>طلب وثيقة تأمين</title><link rel="stylesheet" href="../css/styles.css">
+</head><body><main class="section"><div class="container">
+<h3>طلب وثيقة تأمين — (نسخة عمل)</h3>
+<form id="policy-form" class="features" onsubmit="event.preventDefault(); alert('تم استلام الطلب بشكل أولي — سنتواصل معكم');">
+  <label>نوع الوثيقة
+    <select id="policy-type" required>
+      <option value="">اختر</option>
+      <option>الحريق والسرقة</option>
+      <option>تأمين السيارات</option>
+      <option>الهندسي</option>
+      <option>الحوادث الشخصية</option>
+      <option>التأمين الصحي الجماعي</option>
+      <option>تأمين المنازل</option>
+      <option>تأمين المحلات والمؤسسات</option>
+      <option>وثائق الحياة</option>
+    </select>
+  </label>
   <label>الاسم الكامل <input type="text" required></label>
   <label>الهاتف <input type="tel" required></label>
   <label>البريد الإلكتروني <input type="email"></label>
-  <label>ملاحظات <textarea rows="5"></textarea></label>
-  <button class="cta" type="submit">إرسال (نسخة أولية)</button>
+  <label>المحافظة/المدينة <input type="text" required></label>
+  <label>تفاصيل إضافية <textarea rows="6" placeholder="أدخل المواصفات أو تفاصيل الخطر/الأصول/عدد العاملين/الخ..."></textarea></label>
+  <button class="cta" type="submit">إرسال الطلب</button>
 </form>
+<p class="tiny">يُفضّل إرفاق المستندات عند التواصل معكم لاحقاً لاستكمال الإصدار.</p>
 </div></main></body></html>

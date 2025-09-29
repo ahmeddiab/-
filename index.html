@@ -12,7 +12,8 @@
   <header class="site-header">
     <div class="container">
       <div class="brand">
-        <img class="brand-mark" src="assets/images/logo_placeholder.svg" alt="IIC Logo" />
+        <!-- لا يتم تغيير أو تعديل شعار الشركة نهائياً -->
+        <img class="brand-logo" src="assets/images/logo.png" alt="شعار شركة التأمين العراقية العامة" />
         <div class="brand-text">
           <h1>شركة التأمين العراقية العامة</h1>
           <p>أمانك مسؤوليتنا — منذ 1959</p>
@@ -20,9 +21,10 @@
       </div>
       <nav class="nav">
         <a href="#about">عن المنصة</a>
+        <a href="#docs">الوثائق</a>
         <a href="#services">الخدمات</a>
-        <a href="#media">المعرض</a>
         <a href="#forms">الاستمارات</a>
+        <a href="#calculator">حاسبة السيارات</a>
         <a href="#contact">تواصل</a>
       </nav>
     </div>
@@ -41,63 +43,58 @@
     <section id="about" class="section">
       <div class="container">
         <h3>عن المنصة</h3>
-        <p>
-          هذه النسخة تم إعدادها بناءً على آخر تحديث لطلباتكم، وتتضمن بنية جاهزة للتطوير الفوري.
-          تم تضمين العناصر التالية: شريط دعوة للتواصل مع المساعد الذكي، أقسام تعريفيّة وخدمية،
-          معرض صور، مساحات جاهزة للاستمارات، وملفات مرجعية داخل حزمة التحميل.
-        </p>
+        <p>نسخة مُعاد بناؤها من الصفر حسب تعليماتكم الأخيرة، مع الحفاظ على الشعار دون أي تغيير،
+        وإتاحة زر المساعد الذكي بالرابط الرسمي، وإدراج جميع أنواع وثائق التأمين ونماذج طلبها.</p>
       </div>
     </section>
 
-    <section id="services" class="section muted">
+    <section id="docs" class="section muted">
+      <div class="container">
+        <h3>أنواع الوثائق (نظرة عامة)</h3>
+        <ul class="grid features">
+          <li><h4>الحريق والسرقة</h4><p>للمحال والمنازل والمخازن والمصانع… مع أخطار إضافية اختيارية.</p></li>
+          <li><h4>تأمين السيارات</h4><p>شامل: اصطدام، انقلاب، سرقة، حريق، مسؤولية مدنية، إمكانية إضافة الإرهاب.</p></li>
+          <li><h4>الهندسي</h4><p>كافة أخطار المقاولين/التركيب، العطب الميكانيكي، المراجل، الأجهزة الإلكترونية…</p></li>
+          <li><h4>الحوادث الشخصية</h4><p>حماية من الحوادث غير المتوقعة للأفراد والموظفين.</p></li>
+          <li><h4>التأمين الصحي الجماعي</h4><p>نفقات طبية (عمليات، كشف، أدوية، إقامة) داخل/خارج العراق حسب الوثيقة.</p></li>
+          <li><h4>تأمين المنازل</h4><p>يغطي المبنى والمحتويات (حريق، سرقة، صواعق، زلازل، فيضانات…)</p></li>
+          <li><h4>تأمين المحلات والمؤسسات</h4><p>حماية الأعمال والأموال أثناء الحفظ/النقل، مسؤوليات مدنية ومهنية.</p></li>
+          <li><h4>وثائق الحياة</h4><p>مختلط، مؤقت، مدى الحياة، رد أقساط، أطفال… ومنافع إضافية.</p></li>
+        </ul>
+        <p class="note">تفاصيل موسعة ضمن المجلد <code>docs/</code> (مرجع 1، مرجع 2، مذكرة المدير العام…).</p>
+      </div>
+    </section>
+
+    <section id="services" class="section">
       <div class="container">
         <h3>الخدمات</h3>
         <ul class="grid features">
-          <li>
-            <h4>تواصل ذكي 24/7</h4>
-            <p>مساعد ذكي يجيب عن الاستفسارات المتعلقة بالوثائق، الأقساط، والفروع.</p>
-          </li>
-          <li>
-            <h4>هيكل قابل للتطوير</h4>
-            <p>تمهيد لإضافة استمارات إلكترونية (طلب وثيقة، الشكاوى، حجز مقابلة).</p>
-          </li>
-          <li>
-            <h4>أصول إعلامية</h4>
-            <p>صور توعوية وتسويقية مضمنة داخل الحزمة لاستخدامها فوراً.</p>
-          </li>
-          <li>
-            <h4>مراجع مدمجة</h4>
-            <p>مستندات مرجعية رسمية ضمن مجلد <code>docs</code> لتعزيز دقة المحتوى.</p>
-          </li>
+          <li><h4>تواصل ذكي 24/7</h4><p>المساعد الذكي يغطّي الأسئلة عن الوثائق والأقساط والفروع.</p></li>
+          <li><h4>نماذج جاهزة</h4><p>استمارات طلب الوثائق، الشكاوى، وحجز مقابلة المدير العام.</p></li>
+          <li><h4>مرجع متكامل</h4><p>ملفات الشركة الرسمية مضمّنة في الحزمة للاستخدام الداخلي.</p></li>
+          <li><h4>تصميم قابل للتوسعة</h4><p>بنية نظيفة لإضافة واجهات ولوحات إدارة لاحقاً.</p></li>
         </ul>
-      </div>
-    </section>
-
-    <section id="media" class="section">
-      <div class="container">
-        <h3>المعرض</h3>
-        <div class="gallery">
-          <!-- Thumbnails are loaded from assets/images; feel free to replace -->
-          <img src="assets/images/thumb_1.jpg" alt="صورة تعريفية 1" />
-          <img src="assets/images/thumb_2.jpg" alt="صورة تعريفية 2" />
-          <img src="assets/images/thumb_3.jpg" alt="صورة تعريفية 3" />
-          <img src="assets/images/thumb_4.jpg" alt="صورة تعريفية 4" />
-        </div>
       </div>
     </section>
 
     <section id="forms" class="section muted">
       <div class="container">
-        <h3>الاستمارات (جاهزة للإضافة)</h3>
-        <p>
-          هذا القسم مهيأ لربط الاستمارات الإلكترونية التي سنصممها لاحقاً (طلب وثيقة، الاستفسارات، الشكاوى،
-          طلب مقابلة المدير العام، …). تجدون نماذج أولية داخل مجلد <code>forms</code>.
-        </p>
+        <h3>الاستمارات</h3>
         <div class="forms-grid">
-          <a class="form-card" href="forms/request_policy.html">نموذج طلب وثيقة</a>
-          <a class="form-card" href="forms/contact_us.html">نموذج تواصل</a>
-          <a class="form-card" href="forms/complaint.html">نموذج شكوى</a>
+          <a class="form-card" href="forms/request_policy.html">طلب وثيقة تأمين</a>
+          <a class="form-card" href="forms/auto_premium.html">طلب/تسعير تأمين سيارات</a>
+          <a class="form-card" href="forms/complaint.html">تقديم شكوى</a>
+          <a class="form-card" href="forms/meeting_request.html">طلب مقابلة المدير العام</a>
+          <a class="form-card" href="forms/general_inquiry.html">استفسار عام</a>
         </div>
+      </div>
+    </section>
+
+    <section id="calculator" class="section">
+      <div class="container">
+        <h3>حاسبة سريعة لتأمين السيارات (نسخة مختصرة)</h3>
+        <div id="calc-root" class="calc-box"></div>
+        <p class="tiny">هذه الحاسبة للارشاد المبدئي فقط. التسعير النهائي لدى الشركة.</p>
       </div>
     </section>
 
@@ -122,5 +119,6 @@
   </footer>
 
   <script src="js/app.js"></script>
+  <script src="js/auto_calc_embed.js"></script>
 </body>
 </html>

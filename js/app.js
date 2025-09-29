@@ -17,3 +17,10 @@
     console.warn('Config load failed', e);
   }
 })();
+
+// Mount embedded calc if present
+(function(){
+  if (typeof window.mountInlineAutoCalc === 'function'){
+    window.mountInlineAutoCalc('#calc-root');
+  }
+})();
